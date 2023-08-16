@@ -77,6 +77,7 @@ Computer points: {self.computer_points}"""
                 self.determine_winner(user_choice, computer_choice)
             else:
                 print("Invalid choice. Please try again.")
+                continue
 
             while True:
                 play_again = input("Do you want to play again? (y/n): ")
